@@ -3,68 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/concrete_seamless.png");
-}
-* {
-  box-sizing: border-box;
-}
-/* general */
-.container {
-  width: 100%;
-  max-width: 960px;
-  margin: 0 auto;
-  clear: both;
-}
-h1,
-h2,
-h3,
-p {
-  margin-bottom: 20px;
-}
-p:last-child {
-  margin-bottom: 0;
-}
-h1,
-h2,
-h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-weight: 700;
-  color: #4aaaa5;
-}
-h1 {
-  padding-bottom: 20px;
-  font-size: 30px;
-  line-height: 49px;
-  border-bottom: 3px solid #ddd;
-}
-h2,
-h3 {
-  font-size: 22px;
-}
-/* header */
-#masthead {
-  position: fixed;
-  z-index: 99;
-  width: 100%;
-  margin: 0 0 30px;
-  overflow: auto;
-  color: #fff;
-  background: #fff;
-  border-bottom: 2px solid #ccc;
-}
-#logo {
-  float: left;
-  width: 250px;
-  height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 90px;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  background: #4aaaa5;
-}
+
 nav {
   float: right;
   margin-top: 25px;
@@ -81,6 +20,46 @@ nav a {
 nav a:first-child {
   border-left: 0 none;
 }
+=======
+
+.navbar-right {
+  float: right;
+  background-color: #4aaaa5;
+}
+
+ul.nav.navbar-right {
+  display: inline-block;
+}
+
+ul.nav.navbar-right li {
+  display: inline-block;
+}
+
+ul.nav.navbar-right li a {
+  color: white;
+}
+
+.collapse,.in ul.nav.navbar-right li {
+  display: block;
+}
+
+.navbar-header{
+  background:#4aaaa5;
+}
+
+#navbar{
+  background: #4aaaa5;
+}
+.navbar{
+  background: #4aaaa5;
+}
+
+.a.navbar-brand{
+  color: white;
+}
+
+
+>>>>>>> 251e861e0404c2ae9834d9873f3d5c921fb0b67b
 /* footer */
 footer {
   padding: 30px 0;
@@ -94,9 +73,13 @@ footer {
 }
 /* sidebar */
 .sidebar {
+<<<<<<< HEAD
   float: right;
   width: 100%;
   max-width: 270px;
+=======
+  width: 100%;
+>>>>>>> 251e861e0404c2ae9834d9873f3d5c921fb0b67b
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
@@ -123,9 +106,13 @@ h3,
   padding-top: 130px;
 }
 .main-section {
+<<<<<<< HEAD
   float: left;
   width: 100%;
   max-width: 650px;
+=======
+  width: 100%;
+>>>>>>> 251e861e0404c2ae9834d9873f3d5c921fb0b67b
   padding: 30px;
   margin: 0 0 40px;
   background: #fff;
@@ -161,11 +148,21 @@ h3,
   border-bottom: 0;
 }
 .auth-image {
+<<<<<<< HEAD
   float: left;
   width: 200px;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
+=======
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+  max-width: 250px;
+  display: table;
+  margin: 20px auto;
+>>>>>>> 251e861e0404c2ae9834d9873f3d5c921fb0b67b
 }
 /* contact page */
 #contact-form ul {
